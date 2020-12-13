@@ -1,5 +1,3 @@
-# Book A Ride
-A demo application for booking rides
-There are two services service-1 and service-2.
-By using first service you can enter ur ticket details and book the ride.
-By using second service you can see the available rides.
+# Food ordering web app
+Basic web application for food ordering with two Microservices
+First service allows user to enter details and confirm, second micro service shows the available items
