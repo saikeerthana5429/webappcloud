@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Confirmation Page</title>
+    <title>Confirmation</title>
     <style>
     form{
       display:block;
@@ -11,21 +11,16 @@
     </style>
   </head>
   <body>
-        <h1>Enter your details here and book a ride now!!</h1>
+        <h1>Place your order</h1>
         <form action="/valid" method="post">
           <label for 'Name'>Name</label>
           <input type='text' id='Name' name='Name'>
-          <label for 'Ride_Number'>Ride_Number</label>
-          <input type='text' id='Ride_Number' name='Ride_Number'>
-          <label for 'NoOfTickets'>No Of Tickets</label>
-          <input type='number' id='No Of Tickets' name='NoOfTickets'>
+          <label for 'order_number'>order_number</label>
+          <input type='text' id='order_number' name='order_number'>
+          <label for 'No. of items'>No. of items</label>
+          <input type='number' id='No of items' name='No of items'>
           <label for 'Email'>Email</label>
           <input type='email' id='Email' name='Email'>
-          <label for 'gender'>Gender:</label>
-          <label for 'Male'>Male<label>
-          <input type='radio' id='Male' name='gender' value='Male'>
-          <label for 'Female'>Female<label>
-          <input type='radio' id='Female' name='gender' value='Female'><br>
           <input type='submit' value='Confirm!'>
         </form>
   </body>
